@@ -12,9 +12,7 @@ export default function Navbar() {
 
     navTween.fromTo(
       "nav",
-      {
-        backgroundColor: "transparent",
-      },
+      { backgroundColor: "transparent" },
       {
         backgroundColor: "#00000050",
         backgroundFilter: "blur(10px)",
